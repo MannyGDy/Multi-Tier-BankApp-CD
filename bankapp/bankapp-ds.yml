@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: mannygdy/bankapp:latest
+        image: mannygdy/bankapp:v4
         ports:
         - containerPort: 8080
         env:
